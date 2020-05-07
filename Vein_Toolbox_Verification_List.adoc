@@ -1,0 +1,95 @@
+= Vein Toolbox Verification List
+:showtitle:
+:revdate: 2020-05-05
+
+This shows the list of tests and their applicability to different types of biometric sensors.
+
+.Test items
+[cols=".^1,.^2,^.^1,^.^1,^.^1",options="header",]
+
+|===
+|No.
+|Attack Description
+|NIR light Sensor
+|Visible light Sensor
+|Unknown
+
+|print attack 1-1
+|link:attacks/2D-face_attack_1_1.adoc[NIR light image, Direct presentation]
+|X
+|
+|X
+
+|print attack 2-1
+|link:attacks/2D-face_attack_2_1.adoc[Visible light image, Direct presentation]
+|X
+|X
+|X
+
+|print attack 3-1
+|link:attacks/2D-face_attack_3_1.adoc[Combined image, Direct presentation]
+|X
+|X
+|X
+
+|video attack 4-1
+|link:attacks/2D-face_attack_3_1.adoc[Visible light image]
+|
+|X
+|X
+
+|print attack 1-2
+|link:attacks/2D-face_attack_1_1.adoc[NIR light image, Presentation with bottle/tube (Variant of print attack 1-1)]
+|X
+|
+|X
+
+|print attack 2-2
+|link:attacks/2D-face_attack_2_1.adoc[Visible light image, Presentation with bottle/tube (Variant of print attack 2-1)]
+|X
+|X
+|X
+
+|print attack 3-2
+|link:attacks/2D-face_attack_3_1.adoc[Combined image, Presentation with bottle/tube (Variant of print attack 3-1)]
+|X
+|X
+|X
+
+|print attack 1-3
+|link:attacks/2D-face_attack_1_1.adoc[NIR light image, Presentation with wax (Variant of print attack 1-1)]
+|X
+|
+|X
+
+|print attack 2-3
+|link:attacks/2D-face_attack_2_1.adoc[Visible light image, Presentation with wax (Variant of print attack 2-1)]
+|X
+|X
+|X
+
+|print attack 3-3
+|link:attacks/2D-face_attack_3_1.adoc[Combined image, Presentation with wax (Variant of print attack 3-1)]
+|X
+|X
+|X
+
+|print attack 1-4
+|link:attacks/2D-face_attack_1_1.adoc[NIR light image, Presentation with real palm/finger (Variant of print attack 1-1)]
+|X
+|
+|X
+
+|print attack 2-4
+|link:attacks/2D-face_attack_2_1.adoc[Visible light image, Presentation with real palm/finger (Variant of print attack 2-1)]
+|X
+|X
+|X
+
+|print attack 3-4
+|link:attacks/2D-face_attack_3_1.adoc[Combined image, Presentation with real palm/finger (Variant of print attack 3-1)]
+|X
+|X
+|X
+
+|===
