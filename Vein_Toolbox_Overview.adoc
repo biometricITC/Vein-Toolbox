@@ -1,0 +1,126 @@
+= Vein Toolbox Overview
+:showtitle:
+:revdate: 2020-05-05
+
+== Overview
+Finger/palm vein verification authenticates the user based on the human finger/palm vein patterns beneath the skin's surface. This toolbox specifies artifacts for finger/palm vein PAD testing and their production methods referring relevant research papers however, this toolbox can also be applicable to other types of vein verification (e.g. dorsal hand or wrist vein verification) because they also use the same technology to capture and match the vein patterns.
+
+== Vein Presentation Attacks
+Vein presentation attack can be carried out through the following process:  
+
+. Capture the vein image with Near Infra-Red (NIR) light or visible light.  
+. Print or display the vein image on the materials such as a paper or screen to create the artefacts.  
+. Present the artefacts to the TOE.  
+
+Vein presentation attacks can be categorized into the *print attack (NIR light image)*, *print attack (Visible light image)*, *print attack (Combined image)* and *video attack (Visible light image)* based on the TOE’s method to capture the vein image. The TOE can capture the vein image with NIR light and vein patterns appear as a series of dark lines in the image. The TOE can also capture the vein image with visible light and vein patterns appear as those lines losing red color component in the image. 
+
+The evaluator shall test *print attack (NIR light image)*, *print attack (Visible light image)* and *print attack (Combined image)* against those TOEs that use the NIR light, and *print attack (Visible light image)*, *print attack (Combined image)* and *video attack (Visible light image)* against those TOEs that use the visible light. *print attack (NIR light image)* is only applicable to the TOE that uses NIR light because the TOE that captures the vein image with visible light recognizes the vein pattern based on the intensity of particular color components (e.g red and green color components) and *video attack (Visible light image)* is only applicable to the TOE that uses visible light because the TOE that captures the vein image with NIR light can’t recognize the vein pattern displayed on the computer screen or display because the whole screen or display appears as a single black image in the NIR light.
+
+== Vein Presentation Attack Detection
+As for other biometric characteristics such as 2D face, texture patterns have been extensively analyzed for vein PAD based on the technology used for classification in computer vision, such as Local Binary Pattern (LBP). This method captures textural details and detect the artefacts using the classifier such as Support Vector Machine (SVM). Short video sequences with the aid of Eulerian video magnification can also be used to amplify the blood flow and thus detect the printed artefacts. Deep Learning (DL) is another approach to detect the artefacts using Convolutional Neural Network (CNN) designed for vein PAD. These PAD technologies achieve a high detection accuracy over the test vein image database.
+
+== Common Test Protocol
+Presentation attacks mentioned above (i.e. *print attack (NIR light image)*, *print attack (Visible light image)*, *print attack (Combined image)* and *video attack (Visible light image)*) shall be done for the vein PAD testing. In those testing, the evaluator can use different type of scanners under different illumination to capture vein images to create artefacts. The evaluator can also present these artefacts under different condition. It’s not possible to cover all such possible test scenarios and this toolbox defines the common test protocol to maintain consistency among different PAD testing but also enable to conduct the testing efficiently referring research papers. The evaluator shall follow the test protocols describe below, in addition to guidance provided in Toolbox Overview to conduct the PAD testing.
+The tools and media for the creation of artefacts are defined for all tests in the <<Vein Toolbox Inventory>>. Each attack specifies which tools and media are to be used in the creation of artefacts for that test.
+
+. Enrollment
++
+The evaluator shall turn on the vein unlock and enroll the test users following instructions provided by the AGD guidance.
+
+. Vein image capture
++
+The evaluator shall capture vein images right after the enrolment of test users under the same condition to reduce the possibility that the artefacts are rejected because of the difference of illumination, background scene and location of finger/palm.
++
+* NIR light image
++
+The evaluator shall capture the vein image from the target user by the scanner using NIR light. Subsequent section and <<Vein Toolbox Inventory>> explain which scanner the evaluator should use. Captured white and black vein image will be used for the *print attack (NIR light image)* and *print attack (Combined image)*.
++
+* Visible light image
++
+The evaluator shall capture the vein image from the target user by the dSLR camera using visible light. Requirements for the camera is specified in <<Vein Toolbox Inventory>>. Captured still color vein image will be used for the *print attack (Visible light image)* and *print attack (Combined image)*. Captured video of vein image is used for *video attack (Visible light image)*.
+
+. Preprocess the vein image
++
+* NIR light image
++
+If the captured vein image is not clear and visible, the evaluator shall preprocess the image to improve contrast of the vein pattern. The evaluator may enhance the vein pattern with a pencil by hand or with free image processing software. Research papers normally apply more sophisticated image processing technique such as the histogram equalization to improve the quality of image however the evaluator may not use such method considering the attack potential required by <<BIOPP-Module>>. However, the evaluator shall also perform proper rescaling, so the printed vein image should be the same size as the real one.
++
+* Visible light image
++
+The evaluator may enhance the blue vein pattern with a pencil by hand for the printout or with free image processing software to decrease red color component in the pattern. The evaluator may not use image processing software as explained above however, the evaluator shall perform proper rescaling.
+
+. Artefact creation
++
+* Artefact for *print attack (NIR light image)*
++
+The evaluator shall print the vein image in a paper with a printer specified in <<Vein Toolbox Inventory>>. The TOE can capture the vein patterns from such printed artefacts because carbon ink has a strong tendency to absorb NIR light as hemoglobin in the vein does, so visible dark lines (i.e. vein patterns) should appear on the printed artefacts. 
++
+* Artefact for *print attack (Visible light image)*
++
+The evaluator shall print the vein image in a paper with a printer specified in <<Vein Toolbox Inventory>>. The visible blue lines (i.e. vein patterns) should appear on the printed artefacts so that the TOE can also recognize the patterns.
++
+* Artefact for *print attack (Combined image)*
++
+The evaluator shall create the composite image artefacts that put the printed artifact for visible light vein image on another printed artifact for NIR light vein image.
++
+* Artefact for *video attack (Visible light image)*
++
+The evaluator shall display the vein image in a screen specified in <<Vein Toolbox Inventory>>. The visible blue lines (i.e. vein patterns) should appear on the screen so that the TOE can also recognize the patterns.
+ 
+. Artefact presentation
++
+* Presentation method for *print attack (NIR light image)*, *print attack (Combined image)* and *print attack (Combined image)*
++
+The evaluator shall present the printed artefacts to the TOE in the following manners because each presentation method may have different effect on the TOE’s presentation attack detection functionality.
++
+**	Direct presentation
++
+Present the artefact as it is to the TOE.
++
+**	Presentation of the artefact with bottle/tube 
++
+Present the artefact stuck on a bottle for palm vein verification or a round transparent tube (size of tube is the same size as finger) for finger vein verification (See Figure 5-27 of [1] in <<Vein Toolbox References>>)
++
+**	Presentation of the artefact with wax
++
+Cover the artefact with wax to simulate human tissue and present it to the TOE (See [2] in <<Vein Toolbox References>>)
++
+**	Presentation of the artefact with real palm/finger 
++
+Present the artefact stuck on different user’s palm or finger (e.g. Figure 5-27 of [1] in <<Vein Toolbox References>>)
+
+* Presentation method for *video attack (Visible light image)*  
++
+The evaluator shall present the screen that displays the vein image to the TOE.
+
+== Requirements for Tools
+This section provides the guideline for selection of the scanner that captures NIR light vein image because requirements for the scanner cannot be explicitly specified in <<Vein Toolbox Inventory>>. The requirements for the other tools are specified in <<Vein Toolbox Inventory>>.
+
+Following scanners are available for the evaluator and they were actually used in the research papers to create artefacts.
+
+* Commercial scanner  
++
+The evaluator may purchase the TOE or similar type of commercial vein scanner to capture the vein image. This is the best choice if such a scanner is available at affordable cost.
+
+* In-house scanner
++
+The evaluator may develop the vein scanner by her/himself refereeing the publicly available information (e.g. See [3] for finger vein and [4] for palm vein in <<Vein Toolbox References>>).
+
+* Camera
++
+The evaluator may capture the vein image using the commercial NIR camera with NIR light source. The evaluator may convert the normal digital camera to the NIR camera removing IR cut-off filter (e.g. [2] and [5] in <<Vein Toolbox References>>) instead of purchasing expensive NIR camera.
+
+In any case, cost and skill for using the scanner need to be within the scope of Basic Attack Potential. 
+The evaluator should estimate the cost and skill for using the scanner referring the relevant research papers at the time of testing and choose the one that can capture the clearest vein image.
+
+
+== Test Items
+The evaluator shall create artefacts defined in all test items listed in the <<Vein Verification List>>. The <<Vein Verification List>> specifies the species that must be created based on the type of biometric sensor.
+
+<<PAD Toolbox Overview>> defines required number of attempts for the independent testing and maximum timeframe for both independent and penetration testing.
+
+== Pass/Fail Criteria
+If Pass/Fail Criteria is defined in the test items the evaluator shall follow them, otherwise follow criteria defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
+
+== Reference Information 
+The Vein Toolbox was created based on research papers listed in <<Vein Toolbox References>>. The evaluator should read them before conducting the PAD testing because they include more detailed information about PAD test methods.
