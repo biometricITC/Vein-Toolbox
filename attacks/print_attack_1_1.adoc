@@ -1,0 +1,126 @@
+= Print attack 1-1
+
+== Attack type
+Print attack (NIR light image), Direct presentation
+
+=== Total Number of Species
+This attack has *4* species to be tested.
+
+== Overview
+The evaluator captures target user's finger/palm vein image using NIR light scanner and prints it on the paper and present it to the TOE.
+
+== Input
+Target user's finger/palm
+
+== Attack Tools/Media
+
+* T.1
+* T.3
+* M.1
+
+== Recipe
+The evaluator shall capture a vein image using NIR light scanner and print it on a paper. 
+
+The evaluator shall refer publicly available information to change default setting of the NIR light scanner and printer (e.g. resolution) to create clearer vein image artefacts.
+
+The evaluator shall take at least three images and select the best one to create each vein image artefact.
+
+== Prerequisite
+The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers the multiple configurations for vein unlock, the same test should be done for all configurations.
+
+== Presentation
+The evaluator shall present a printed artefact as it is to the TOE as described in the <<Vein Toolbox Overview>>.
+
+== Variations
+
+=== Variation 1 (Print attack 1-2)
+==== Presentation
+Presentation of the artefact with bottle/tube (See <<Vein Toolbox Overview>>)
+
+=== Variation 2 (Print attack 1-3)
+==== Presentation
+Presentation of the artefact with wax (See <<Vein Toolbox Overview>>)
+
+=== Variation 3 (Print attack 1-4)
+==== Presentation
+Presentation of the artefact with real palm/finger (See <<Vein Toolbox Overview>>)
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator shall consider changing the following factors for penetration testing.
+
+* Creation process, test subjects and presentation methods
++
+The evaluator can change the creation process, test subject and presentation method as explained in <<BIOSD>> Section 6.3.1.3.1. 
+
+* Materials for Print attack 1-3
++
+The evaluator can use different materials such as silicone or playdoh instead of wax.
+
+=== Attack Potential Rating Suggestion
+The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
+
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+.Attack Potential Print attack 1-1, 1-2, 1-3 and 1-4
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one week
+|1
+|<= one day
+|0
+|1
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|0
+ 
+|*Knowledge of TOE*    
+|Public
+|0 
+|N/A
+|
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|N/A
+|
+|Non-cooperative
+|2
+|2
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There are no additional criteria other than defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
