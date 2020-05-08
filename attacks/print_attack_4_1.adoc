@@ -1,0 +1,111 @@
+= Print attack 4-1
+
+== Attack type
+Video attack (Visible light image)
+
+=== Total Number of Species
+This attack has *1* species to be tested.
+
+== Overview
+The evaluator displays target user's finger/palm vein image on the screen and present it to the TOE.
+
+== Input
+Target user's finger/palm
+
+== Attack Tools/Media
+
+* T.2
+* M.2
+
+== Recipe
+The evaluator captures target user's finger/palm vein image using a dSLR camera and displays it on the screen and present it to the TOE.
+
+The evaluator shall refer publicly available information to change default setting of the camera to create clearer vein image artefacts.
+
+The evaluator shall record at least three images for 10 or 20 sec and select the best one to create each vein image artefact.
+
+== Prerequisite
+The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers the multiple configurations for vein unlock, the same test should be done for all configurations.
+
+== Presentation
+The evaluator shall present the screen to the TOE.
+
+== Variations
+
+None
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator shall consider changing the following factors for penetration testing.
+
+* Creation process, test subjects and presentation methods
++
+The evaluator can change the creation process, test subject and presentation method as explained in <<BIOSD>> Section 6.3.1.3.1. 
+
+=== Attack Potential Rating Suggestion
+The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
+
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+.Attack Potential Print attack 4-1
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|<= one week
+|1
+|<= one day
+|0
+|1
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|0
+ 
+|*Knowledge of TOE*    
+|Public
+|0 
+|N/A
+|
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|N/A
+|
+|Non-cooperative
+|2
+|2
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There are no additional criteria other than defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
