@@ -49,20 +49,21 @@ If the captured vein image is not clear and visible, the evaluator shall preproc
 +
 The evaluator may enhance the blue vein pattern with a pencil by hand for the printout or with free image processing software to decrease red color component in the pattern. The evaluator may not use image processing software as explained above however, the evaluator shall perform proper rescaling.
 
-. Artefact creation  
-  a. Artefact for *print attack (NIR light image)*
+. Artefact creation   
+[loweralpha]
+.. Artefact for *print attack (NIR light image)*
 +
 The evaluator shall print the vein image in a paper with a printer specified in <<Vein Toolbox Inventory>>. The TOE can capture the vein patterns from such printed artefacts because carbon ink has a strong tendency to absorb NIR light as hemoglobin in the vein does, so visible dark lines (i.e. vein patterns) should appear on the printed artefacts. 
 +
-  b. Artefact for *print attack (Visible light image)*
+.. Artefact for *print attack (Visible light image)*
 +
 The evaluator shall print the vein image in a paper with a printer specified in <<Vein Toolbox Inventory>>. The visible blue lines (i.e. vein patterns) should appear on the printed artefacts so that the TOE can also recognize the patterns.
 +
-  c. Artefact for *print attack (Combined image)*
+.. Artefact for *print attack (Combined image)*
 +
-The evaluator shall create the composite image artefacts that put the printed artifact for visible light vein image on another printed artifact for NIR light vein image.
+The evaluator shall create the composite image artefacts that put the printed artifact for visible light vein image (b) on another printed artifact for NIR light vein image (a).
 +
-  d. Artefact for *video attack (Visible light image)*
+.. Artefact for *video attack (Visible light image)*
 +
 The evaluator shall display the vein image in a screen specified in <<Vein Toolbox Inventory>>. The visible blue lines (i.e. vein patterns) should appear on the screen so that the TOE can also recognize the patterns.
  
