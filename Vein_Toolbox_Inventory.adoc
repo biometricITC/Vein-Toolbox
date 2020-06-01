@@ -69,4 +69,15 @@ a|Mobile device screen
 * The evaluator shall use the same mobile device used for capturing test user's finger/palm.
 * Test user's finger/palm shall be displayed or replayed on the screen in full scale.
 
+|M.3
+|Bottle or Tube
+a|A bottle or tube used to present a non-flat surface for the printed artefact
+
+* A bottle or similar for a palm vein verification.
+* A transparent tube roughly the size of a finger for finger vein verification.
+
+|M.4
+|Wax
+|Wax that can be used to create the shape of the hand or wrist to cover the printed artefact.
+
 |===

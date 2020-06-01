@@ -1,4 +1,4 @@
-= Print attack 3-1
+= Vein Print attack 3-1
 
 == Attack type
 Print attack (Combined image), Direct presentation
@@ -34,15 +34,29 @@ The evaluator shall present a printed artefact as it is to the TOE as described 
 
 == Variations
 
-=== Variation 1 (Print attack 3-2)
+=== Variation 1 (Vein Print attack 3-2)
+* T.1
+* T.3
+* M.1
+* M.3
+
 ==== Presentation
 Presentation of the artefact with bottle/tube (See <<Vein Toolbox Overview>>)
 
-=== Variation 2 (Print attack 3-3)
+=== Variation 2 (Vein Print attack 3-3)
+* T.1
+* T.3
+* M.1
+* M.4
+
 ==== Presentation
 Presentation of the artefact with wax (See <<Vein Toolbox Overview>>)
 
-=== Variation 3 (Print attack 3-4)
+=== Variation 3 (Vein Print attack 3-4)
+* T.1
+* T.3
+* M.1
+
 ==== Presentation
 Presentation of the artefact with real palm/finger (See <<Vein Toolbox Overview>>)
 
@@ -54,7 +68,7 @@ The evaluator shall consider changing the following factors for penetration test
 +
 The evaluator can change the creation process, test subject and presentation method as explained in <<BIOSD>> Section 6.3.1.3.1. 
 
-* Materials for Print attack 3-3
+* Materials for Vein Print attack 3-3
 +
 The evaluator can use different materials such as silicone or playdoh instead of wax.
 
