@@ -12,7 +12,7 @@ A vein presentation attack can be carried out through the following process:
 . Print or display the vein image on the materials such as a paper or screen to create the artefacts.  
 . Present the artefacts to the TOE.  
 
-Vein presentation attacks can be categorized into the *print attack (NIR light image)*, *print attack (Visible light image)*, *print attack (Combined image)* and *video attack (Visible light image)* based on the TOE’s method to capture the vein image. The TOE can capture the vein image with NIR light and vein patterns appear as a series of dark lines in the image. The TOE can also capture the vein image with visible light and vein patterns appear as those lines losing red color component in the image. 
+Vein presentation attacks can be categorized into the *print attack (NIR light image)*, *print attack (Visible light image)*, *print attack (Combined image)* and *video attack (Visible light image)* based on the TOE’s method to capture the vein image. The TOE can capture the vein image with NIR light and vein patterns appear as a series of dark lines in the image. The TOE can also capture the vein image with visible light and vein patterns appear as those lines with a limited red color component in the image because haemoglobin in vein absorbs red light making the vein pattern visible. 
 
 The evaluator shall test *print attack (NIR light image)*, *print attack (Visible light image)* and *print attack (Combined image)* against those TOEs that use the NIR light, and *print attack (Visible light image)*, *print attack (Combined image)* and *video attack (Visible light image)* against those TOEs that use the visible light. The *print attack (NIR light image)* is only applicable to a TOE that uses NIR light because the TOE that captures the vein image with visible light recognizes the vein pattern based on the intensity of particular color components (e.g red and green color components). The *video attack (Visible light image)* is only applicable to a TOE that uses visible light because the TOE that captures the vein image with NIR light cannot recognize the vein pattern displayed on the computer screen or display because the whole screen or display appears as a single black image in the NIR light.
 
@@ -43,7 +43,7 @@ The evaluator shall capture the vein image from the target user by the dSLR came
 +
 * NIR light image
 +
-If the captured vein image is not clear and visible, the evaluator shall preprocess the image to improve contrast of the vein pattern. The evaluator may enhance the vein pattern with a pencil by hand or with free image processing software. Research papers normally apply more sophisticated image processing techniques such as the histogram equalization to improve the quality of image. The evaluator may not use such methods considering the attack potential required by <<BIOPP-Module>>. The evaluator shall also perform proper rescaling, so the printed vein image should be the same size as the real one.
+If the captured vein pattern image is not clearly visible, the evaluator shall preprocess the image to improve contrast of the vein pattern. The evaluator may use a pencil or image processing software to make the vein pattern clearly visible. The evaluator may use the either of tools, however, the evaluator's effort shall be within the attack potential required by <<BIOPP-Module>>. The evaluator shall also perform proper rescaling, so the printed vein image should be the same size as the real one.
 +
 * Visible light image
 +
