@@ -12,12 +12,17 @@ https://www.vice.com/en_us/article/59v8dk/hackers-fake-hand-vein-authentication-
 
 [3] [B. T. Ton, 2012] Vascular pattern of the finger: biometric of the future?
 
-https://essay.utwente.nl/61963/1/final_report_online_Ton.pdf
+Master’s thesis, University of Twente
 
-[4] [João Ricardo Gonçalves Neves, 2013] Hand Veins Recognition System.
+[4] [Ton, B. T., & Veldhuis, R. N. J., 2013] A high quality finger vascular pattern dataset 
+
+https://ieeexplore.ieee.org/document/6612966
+
+[5] [João Ricardo Gonçalves Neves., 2013] Hand Veins Recognition System
 
 https://fenix.tecnico.ulisboa.pt/downloadFile/395145923801/Master%20Thesis%20Jo%C3%A3o%20Neves%2057516.pdf
 
-[5] [Klaus Mangold, et al., 2013] The physics of near-infrared photography.
+[6] [Klaus Mangold et all., 2013] The physics of near-infrared photography. 
+
 
 http://www.montana.edu/jshaw/documents/NIR%20Photography%20-%20Mangold%20et%20al%20-%20EJP2013.pdf
