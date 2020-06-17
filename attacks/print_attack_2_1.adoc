@@ -1,16 +1,16 @@
 = Vein Print attack 2-1
 
 == Attack type
-Print attack (Visible light image), Direct presentation
+Print attack (visible light image), Direct presentation
 
 === Total Number of Species
 This attack has *4* species to be tested.
 
 == Overview
-The evaluator captures target user's finger/palm vein image using a dSLR camera and prints it on the paper and present it to the TOE.
+The evaluator captures target user's finger/palm vein image using a dSLR camera, prints it on paper, and present the paper to the TOE.
 
 == Input
-Target user's finger/palm
+Target user's finger/palm.
 
 == Attack Tools/Media
 
@@ -19,17 +19,17 @@ Target user's finger/palm
 * M.1
 
 == Recipe
-The evaluator shall capture a vein image using a dSLR camera and print it on a paper. 
+The evaluator shall capture a vein image using a dSLR camera and print it on paper.
 
-The evaluator shall refer publicly available information to change default setting of the camera and printer (e.g. resolution) to create clearer vein image artefacts.
+The evaluator shall refer publicly available information to change the default settings of the camera and printer (e.g., resolution) to create clearer vein image artefacts.
 
 The evaluator shall take at least three images and select the best one to create each vein image artefact.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers the multiple configurations for vein unlock, the same test shall be done for all configurations.
+The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
 
 == Presentation
-The evaluator shall present a printed artefact as it is to the TOE as described in the <<Vein Toolbox Overview>>.
+The evaluator shall present a printed artefact as is to the TOE as described in the <<Vein Toolbox Overview>>.
 
 == Variations
 
@@ -137,4 +137,4 @@ a|
 |===
 
 == Pass Criteria
-There are no additional criteria other than defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
+There are no additional criteria other than the criteria defined in <<BIOSD>> and <<PAD Toolbox Overview>>.

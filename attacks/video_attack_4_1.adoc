@@ -1,16 +1,16 @@
 = Vein Video attack 4-1
 
 == Attack type
-Video attack (Visible light image)
+Video attack (visible light image)
 
 === Total Number of Species
 This attack has *1* species to be tested.
 
 == Overview
-The evaluator displays target user's finger/palm vein image on the screen and present it to the TOE.
+The evaluator displays a video of the target user's finger/palm veins on a screen and presents it to the TOE.
 
 == Input
-Target user's finger/palm
+Target user's finger/palm.
 
 == Attack Tools/Media
 
@@ -18,14 +18,14 @@ Target user's finger/palm
 * M.2
 
 == Recipe
-The evaluator captures target user's finger/palm vein image using a dSLR camera and displays it on the screen and present it to the TOE.
+The evaluator captures a video of the target user's finger/palm veins using a dSLR camera, displays the video on a screen, begins video playback, and presents the screen to the TOE.
 
-The evaluator shall refer publicly available information to change default setting of the camera to create clearer vein image artefacts.
+The evaluator shall refer to publicly available information to change default settings of the camera to create clearer vein image artefacts.
 
-The evaluator shall record at least three images for 10 or 20 sec and select the best one to create each vein image artefact.
+The evaluator shall record at least three 10 to 20 sec duration videos and select the best one to create each vein video artefact.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers the multiple configurations for vein unlock, the same test shall be done for all configurations.
+The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
 
 == Presentation
 The evaluator shall present the screen to the TOE.
@@ -108,4 +108,4 @@ a|
 |===
 
 == Pass Criteria
-There are no additional criteria other than defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
+There are no additional criteria other than the criteria defined in <<BIOSD>> and <<PAD Toolbox Overview>>.

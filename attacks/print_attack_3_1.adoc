@@ -1,13 +1,13 @@
 = Vein Print attack 3-1
 
 == Attack type
-Print attack (Combined image), Direct presentation
+Print attack (combined image), Direct presentation
 
 === Total Number of Species
 This attack has *4* species to be tested.
 
 == Overview
-The evaluator combines NIR and visible light image and present it to the TOE.
+The evaluator combines NIR and visible light images into a single artefact and presents it to the TOE.
 
 == Input
 Target user's finger/palm
@@ -20,17 +20,17 @@ Target user's finger/palm
 * M.1
 
 == Recipe
-The evaluator captures target user's finger/palm vein image using NIR light scanner and a dSLR camera and prints both images on the paper separately and overlap each other and present it to the TOE.
+The evaluator captures the target user's finger/palm vein image using an NIR light scanner and a dSLR camera and prints both images on paper separately such that they overlap each other. The paper is then presented to the TOE.
 
-The evaluator shall refer publicly available information to change default setting of the NIR light scanner and printer (e.g. resolution) to create clearer vein image artefacts.
+The evaluator shall refer to publicly available information to change the default settings of the NIR light scanner and printer (e.g., resolution) to create clearer vein image artefacts.
 
-The evaluator may use the printed artefact created for Print attack 1-1 and Print attack 2-1 to create the combined printed artefact.
+The evaluator may use the printed artefacts created for link:print_attack_1_1.adoc[Print attack 1-1] and link:print_attack_2_1.adoc[Print attack 2-1] to create the combined printed artefact.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers the multiple configurations for vein unlock, the same test shall be done for all configurations.
+The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
 
 == Presentation
-The evaluator shall present a printed artefact as it is to the TOE as described in the <<Vein Toolbox Overview>>.
+The evaluator shall present a printed artefact as is to the TOE as described in the <<Vein Toolbox Overview>>.
 
 == Variations
 
@@ -138,4 +138,4 @@ a|
 |===
 
 == Pass Criteria
-There are no additional criteria other than defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
+There are no additional criteria other than the criteria defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
