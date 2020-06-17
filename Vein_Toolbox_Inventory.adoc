@@ -3,15 +3,15 @@
 :revdate: 2020-05-05
 
 == Overview
-This document specifies requirements for tools that are used to create vein image artefacts. The requirements for each tool are specified in the following tables and the evaluator may use any tools and materials to create vein image artefacts as long as they meet requirements specified below, however, the evaluator shall check that created artefacts show the visible vein patterns (e.g. dark lines for NIR vein image).
+This document specifies requirements for tools that are used to create vein image artefacts. The requirements for each tool are specified in the following tables. The evaluator may use any tools and materials to create vein image artefacts as long as they meet requirements specified below. The evaluator shall confirm that created artefacts show visible vein patterns (e.g., dark lines for NIR vein image).
 
-The evaluator may use other tools that are not specified here. 
+The evaluator may use additional tools that are not specified here.
 
 Some examples:
 
-* The evaluator may use image processing software to enhance the vein patterns.
+* The evaluator may use image processing software to enhance vein patterns.
 +
-In such cases, the evaluator may use any software, however, the evaluator shall visually check the final image includes clear vein patterns.
+In such cases, the evaluator may use any software, however, the evaluator shall visually confirm that the final image includes clear vein patterns.
 
 == Tools Inventory
 .Tool Requirements
@@ -34,12 +34,13 @@ a|As explained in <<Vein Toolbox Overview>>, the evaluator shall select the scan
 |Camera    
 a|dSLR camera
 
-* New dSLR shall be purchasable at the date of testing and the camera was released within 1 year from the date of testing.
+* New dSLR camera shall be purchasable at the date of testing.
+* The camera shall have been released within the previous 1 year period starting from the date of testing.
 * Camera's resolution shall be at least 3 times higher than the TOE's sensor used for vein biometric verification.
 
 |T.3 
 |Printer             
-a|Home SoHo Inkjet printer 
+a|Small Office/Home Office Inkjet printer
 
 * New printer shall be purchasable at the date of testing.
 * Test user's finger/palm shall be printed on a paper in full scale.
@@ -60,14 +61,14 @@ a|Home SoHo Inkjet printer
 |Print paper            
 a|Matte paper 
 
-* Paper shall be wide enough to include a test user's finger/palm in full scale.
+* Paper shall be wide enough to include a test user's finger/palm veins in full scale.
 
 |M.2 
 |Screen              
 a|Mobile device screen
 
-* The evaluator shall use the same mobile device used for capturing test user's finger/palm.
-* Test user's finger/palm shall be displayed or replayed on the screen in full scale.
+* The evaluator shall use the same mobile device used for capturing test user's finger/palm veins.
+* Test user's finger/palm veins shall be displayed or replayed on the screen in full scale.
 
 |M.3
 |Bottle or Tube

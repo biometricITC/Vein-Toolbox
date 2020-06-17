@@ -7,10 +7,10 @@ Print attack (NIR light image), Direct presentation
 This attack has *4* species to be tested.
 
 == Overview
-The evaluator captures target user's finger/palm vein image using NIR light scanner and prints it on the paper and present it to the TOE.
+The evaluator captures target user's finger/palm vein image using NIR light scanner, prints it on the paper, and presents the paper to the TOE.
 
 == Input
-Target user's finger/palm
+Target user's finger/palm.
 
 == Attack Tools/Media
 
@@ -19,17 +19,17 @@ Target user's finger/palm
 * M.1
 
 == Recipe
-The evaluator shall capture a vein image using NIR light scanner and print it on a paper. 
+The evaluator shall capture a vein image using an NIR light scanner and print it on paper.
 
-The evaluator shall refer publicly available information to change default setting of the NIR light scanner and printer (e.g. resolution) to create clearer vein image artefacts.
+The evaluator shall refer to publicly available information to change the default settings of the NIR light scanner and printer (e.g., resolution) to create clearer vein image artefacts.
 
 The evaluator shall take at least three images and select the best one to create each vein image artefact.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers the multiple configurations for vein unlock, the same test should be done for all configurations.
+The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test should be performed for all configurations.
 
 == Presentation
-The evaluator shall present a printed artefact as it is to the TOE as described in the <<Vein Toolbox Overview>>.
+The evaluator shall present a printed artefact as is to the TOE as described in the <<Vein Toolbox Overview>>.
 
 == Variations
 
@@ -65,7 +65,7 @@ The evaluator shall consider changing the following factors for penetration test
 
 * Creation process, test subjects and presentation methods
 +
-The evaluator can change the creation process, test subject and presentation method as explained in <<BIOSD>> Section 6.3.1.3.1. 
+The evaluator can change the creation process, test subject, and presentation methods, as explained in <<BIOSD>> Section 6.3.1.3.1.
 
 * Materials for Vein Print attack 1-3
 +
@@ -137,4 +137,4 @@ a|
 |===
 
 == Pass Criteria
-There are no additional criteria other than defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
+There are no additional criteria other than the criteria defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
