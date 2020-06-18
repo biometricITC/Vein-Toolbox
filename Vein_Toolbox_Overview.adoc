@@ -61,7 +61,7 @@ The evaluator shall print the vein image on paper with a printer specified in <<
 +
 .. Artefact for *print attack (combined image)*
 +
-The evaluator shall create composite image artefacts that put the printed artefact for visible light vein image (b) on another printed artefact for NIR light vein image (a).
+The evaluator shall create composite image artefacts that superimpose the printed artefact for visible light vein image (Artefact for *print attack (visible light image)*) on another printed artefact for NIR light vein image (Artefact for *print attack (NIR light image)*).
 +
 .. Artefact for *video attack (visible light image)*
 +
