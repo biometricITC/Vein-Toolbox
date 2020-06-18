@@ -43,7 +43,7 @@ The evaluator shall capture the vein image from the target user with a dSLR came
 +
 * NIR light image
 +
-If the captured vein pattern image is not clearly visible, the evaluator shall preprocess the image to improve contrast of the vein pattern. The evaluator may use a pencil or image processing software to make the vein pattern clearly visible. The evaluator may use the either of tools, however, the evaluator's effort shall be within the attack potential required by <<BIOPP-Module>>. The evaluator shall also perform proper rescaling, so the printed vein image should be the same size as the real one.
+If the captured vein pattern image is not clearly visible, the evaluator shall preprocess the image to improve contrast of the vein pattern. The evaluator may use a pencil or image processing software to make the vein pattern clearly visible. The evaluator may use either of the tools, however, the evaluator's effort shall be within the attack potential required by <<BIOPP-Module>>. The evaluator shall also perform proper rescaling, so the printed vein image should be the same size as the real one.
 +
 * Visible light image
 +
