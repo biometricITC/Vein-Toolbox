@@ -23,9 +23,9 @@ As for other biometric characteristics such as 2D face, texture patterns have be
 The presentation attacks mentioned above (i.e., *print attack (NIR light image)*, *print attack (visible light image)*, *print attack (combined image)* and *video attack (visible light image)*) shall be performed for vein PAD testing. In testing, the evaluator may use different type of scanners to capture vein images to create artefacts. The evaluator may also present those artefacts in various ways. Because it is not possible to cover all possible test scenarios, this toolbox defines a common test protocol to maintain consistency among PAD testing between different labs and enable efficient testing by referring to research papers. The evaluator shall follow the test protocols described below, in addition to guidance provided in <<PAD Toolbox Overview>> to conduct the PAD testing.
 The tools and media for the creation of artefacts are defined for all tests in the <<Vein Toolbox Inventory>>. Each attack specifies which tools and media are to be used in the creation of artefacts for that test.
 
-. Enrollment
+. Enrolment
 +
-The evaluator shall turn on the vein unlock and enroll the test users following instructions provided by the AGD guidance.
+The evaluator shall turn on the vein unlock and enrol the test users following instructions provided by the AGD guidance.
 
 . Vein image capture
 +

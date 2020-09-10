@@ -25,7 +25,7 @@ The evaluator shall refer to publicly available information to change default se
 The evaluator shall record at least three 10 to 20 sec duration videos and select the best one to create each vein video artefact.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
+The evaluator shall enrol test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
 
 == Presentation
 The evaluator shall present the screen to the TOE.
