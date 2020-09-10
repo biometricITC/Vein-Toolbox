@@ -27,7 +27,7 @@ The evaluator shall refer to publicly available information to change the defaul
 The evaluator may use the printed artefacts created for link:print_attack_1_1.adoc[Print attack 1-1] and link:print_attack_2_1.adoc[Print attack 2-1] to create the combined printed artefact.
 
 == Prerequisite
-The evaluator shall enroll test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
+The evaluator shall enrol test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
 
 == Presentation
 The evaluator shall present a printed artefact as is to the TOE as described in the <<Vein Toolbox Overview>>.
