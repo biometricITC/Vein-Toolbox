@@ -69,7 +69,7 @@ The evaluator may change the creation process, test subject and presentation met
 
 * Materials for Vein Print attack 1-3
 +
-The evaluator may use different materials such as silicone or playdoh instead of wax.
+The evaluator may use different materials such as silicone or modeling compound instead of wax.
 
 === Attack Potential Rating Suggestion
 The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
