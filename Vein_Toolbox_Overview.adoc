@@ -93,6 +93,32 @@ Present the artefact adhered to a different user’s palm or finger (e.g. Figure
 +
 The evaluator shall present the screen that displays the vein image to the TOE.
 
+== Stored Artefact Usage
+If stored artefacts will be used for testing, a number of fresh artefacts are still required to ensure that stored artefacts have not degraded in non-visible ways that would effect the testing.
+
+The following table specifies the maximum amount of stored artefacts that can be used for each type.
+
+[cols=".^3,.^2",options="header",]
+
+|===
+
+|Artefact type
+|Max stored artefacts allowed
+
+|Printed paper
+|80%
+
+|Digital image
+|80%
+
+|Bottle or Tube
+|70%
+
+|Wax
+|70%
+
+|===
+
 == Requirements for Tools
 This section provides guidelines for selection of the scanner that captures NIR light vein images because requirements for the scanner cannot be explicitly specified in <<Vein Toolbox Inventory>>. The requirements for all other tools are specified in <<Vein Toolbox Inventory>>.
 
