@@ -98,7 +98,7 @@ If stored artefacts will be used for testing, a number of fresh artefacts are st
 
 The following table specifies the maximum amount of stored artefacts that can be used for each type and the maximum age allowed for the artefacts to be used.
 
-[cols=".^3,.^2",options="header",]
+[cols=".^2,.^3,.^3",options="header",]
 
 |===
 
