@@ -115,12 +115,12 @@ The following table specifies the maximum amount of stored artefacts that can be
 |Not applicable
 
 |Bottle or Tube
-|None allowed
-|Not applicable
+|80%
+|52 weeks (1 year)
 
 |Wax
-|None allowed
-|Not applicable
+|80%
+|52 weeks (1 year)
 
 |===
 
