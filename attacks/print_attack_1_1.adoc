@@ -74,6 +74,8 @@ The evaluator may use different materials such as silicone or modeling compound 
 === Attack Potential Rating Suggestion
 The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
 
+The following assumes the camera is used for the NIR light scanner, as no commercial scanners are available for the attack and developing an in-house scanner exceeds the Basic attack potential at the time of development of this version.
+
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
 .Attack Potential Print attack 1-1, 1-2, 1-3 and 1-4
 |===
@@ -85,9 +87,9 @@ The attack potential that is required to build the artefacts are summarized in t
 |Total
 
 |*Elapsed Time*
-|<= one week
-|1
 |<= one day
+|1
+|<= one hour
 |0
 |1
 
@@ -101,9 +103,26 @@ The attack potential that is required to build the artefacts are summarized in t
 |*Knowledge of TOE*    
 |Public
 |0 
-|N/A
-|
+|Public
+|0 
 |0
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|Not needed
+|0
+|Non-cooperative (Moderate)
+|4
+|4
 
 a|
 *Window of Opportunity*
@@ -115,24 +134,14 @@ a|
 |4
 |4
 
-a|
-*Window of Opportunity*
-
-*(Access to Biometric Characteristics)* 
-|N/A
-|
-|Non-cooperative
-|2
-|2
-
-|*Equipment*
-|Standard
+|*Degree of Scrutiny*
+|None
 |0 
-|Standard
+|None
 |0
 |0
 
-6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+6+^.^|Total Attack Potential = 9 <= Basic Attack Potential
 
 |===
 
