@@ -85,9 +85,9 @@ The attack potential that is required to build the artefacts are summarized in t
 |Total
 
 |*Elapsed Time*
-|<= one week
-|1
 |<= one day
+|1
+|<= one hour
 |0
 |1
 
@@ -97,13 +97,30 @@ The attack potential that is required to build the artefacts are summarized in t
 |Layman
 |0
 |0
- 
+
 |*Knowledge of TOE*    
 |Public
 |0 
-|N/A
-|
+|Public
+|0 
 |0
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|Not needed
+|0
+|Non-cooperative (Moderate)
+|4
+|4
 
 a|
 *Window of Opportunity*
@@ -115,24 +132,14 @@ a|
 |4
 |4
 
-a|
-*Window of Opportunity*
-
-*(Access to Biometric Characteristics)* 
-|N/A
-|
-|Non-cooperative
-|2
-|2
-
-|*Equipment*
-|Standard
+|*Degree of Scrutiny*
+|None
 |0 
-|Standard
+|None
 |0
 |0
 
-6+^.^|Total Attack Potential = 7 < Basic Attack Potential
+6+^.^|Total Attack Potential = 9 <= Basic Attack Potential
 
 |===
 
