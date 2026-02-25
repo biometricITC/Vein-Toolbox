@@ -56,7 +56,7 @@ The attack potential that is required to build the artefacts are summarized in t
 |Total
 
 |*Elapsed Time*
-|<= one day
+|⇐ one day
 |1
 |<= one hour
 |0
@@ -78,10 +78,10 @@ The attack potential that is required to build the artefacts are summarized in t
 
 |*Equipment*
 |Standard
-|0 
+|1 
 |Standard
-|0
-|0
+|2
+|3
 
 a|
 *Window of Opportunity*
@@ -110,7 +110,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 9 <= Basic Attack Potential
+6+^.^|Total Attack Potential = 12 < Enhanced Basic Attack Potential
 
 |===
 
