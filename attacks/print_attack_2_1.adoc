@@ -75,7 +75,7 @@ The evaluator may use different materials such as silicone or modeling compound 
 The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
 
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential Print attack 2-1, 2-2, 2-3 and 2-4
+.Attack Potential Print attack 2
 |===
 |Factor 
 |Identification Value
@@ -85,7 +85,7 @@ The attack potential that is required to build the artefacts are summarized in t
 |Total
 
 |*Elapsed Time*
-|<= one day
+|⇐ one day
 |1
 |<= one hour
 |0
@@ -107,10 +107,10 @@ The attack potential that is required to build the artefacts are summarized in t
 
 |*Equipment*
 |Standard
-|0 
+|1 
 |Standard
-|0
-|0
+|2
+|3
 
 a|
 *Window of Opportunity*
@@ -139,7 +139,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 9 <= Basic Attack Potential
+6+^.^|Total Attack Potential = 12 < Enhanced Basic Attack Potential
 
 |===
 
