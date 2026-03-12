@@ -78,10 +78,10 @@ The attack potential that is required to build the artefacts are summarized in t
 
 |*Equipment*
 |Standard
-|1 
+|0 
 |Standard
-|2
-|3
+|0
+|0
 
 a|
 *Window of Opportunity*
@@ -110,7 +110,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 12 < Enhanced Basic Attack Potential
+6+^.^|Total Attack Potential = 9 &#8804; Basic Attack Potential
 
 |===
 
