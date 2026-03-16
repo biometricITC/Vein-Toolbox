@@ -1,4 +1,5 @@
-= Vein Video attack 4-1
+= Attack L1-Vein VP1-04-xx
+:xrefstyle: short
 
 == Attack type
 Video attack (visible light image)
@@ -43,10 +44,15 @@ The evaluator should consider changing the following factors for penetration tes
 The evaluator may change the creation process, test subject and presentation method as explained in <<BIOSD>> Section 6.3.1.3.1. 
 
 === Attack Potential Rating Suggestion
-The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
 
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the recorded vein pattern video described in this attack. Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the target vein pattern video from the subject and attack the TOE using the displayed vein pattern). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*All Variations* 
+
+.Calculated Attack Potential Vein attack 04-xx
+[[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential Print attack 4-1
 |===
 |Factor 
 |Identification Value
