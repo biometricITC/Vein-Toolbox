@@ -1,4 +1,5 @@
-= Vein Print attack 2-1
+= Attack L1-Vein VP1-02-xx
+:xrefstyle: short
 
 == Attack type
 Print attack (visible light image), Direct presentation
@@ -72,10 +73,15 @@ The evaluator may change the creation process, test subject and presentation met
 The evaluator may use different materials such as silicone or modeling compound instead of wax.
 
 === Attack Potential Rating Suggestion
-The attack potential that is required to build the artefacts are summarized in the following table. See <<BIOSD>> Section 9 for more information about how to calculate the attack potential. 
+The attack potentials that are required to build the artefacts are summarized in the following table. See BIOSD Section 9 for more information about how to calculate attack potential.
 
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the printed vein pattern described in this attack. Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the target vein pattern from the subject and attack the TOE using the printed vein pattern). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*All Variations*
+
+.Calculated Attack Potential Vein attack 02-xx
+[[calculatedtable]]
 [cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
-.Attack Potential Print attack 2
 |===
 |Factor 
 |Identification Value
