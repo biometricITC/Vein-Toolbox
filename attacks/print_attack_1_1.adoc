@@ -73,6 +73,8 @@ The evaluator may change the creation process, test subject and presentation met
 The evaluator may use different materials such as silicone or modeling compound instead of wax.
 
 === Attack Potential Rating Suggestion
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
+
 Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. The following calculation assumes the camera is used for the NIR light scanner, as no commercial scanners are available for the attack and developing an in-house scanner exceeds the Basic attack potential at the time of development of this version. However, as PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
 
 Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the printed vein pattern described in this attack. Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the target vein pattern from the subject and attack the TOE using the printed vein pattern). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
