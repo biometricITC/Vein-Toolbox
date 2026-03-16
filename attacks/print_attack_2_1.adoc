@@ -2,7 +2,7 @@
 :xrefstyle: short
 
 == Attack type
-Print attack (visible light image), Direct presentation
+Print attack (visible light image)
 
 === Total Number of Species
 This attack has *4* species to be tested.
@@ -11,51 +11,40 @@ This attack has *4* species to be tested.
 The evaluator captures target user's finger/palm vein image using a dSLR camera, prints it on paper, and present the paper to the TOE.
 
 == Input
-Target user's finger/palm.
+The finger/palm of non-cooperative subjects for use in capturing images of the subjects' vein pattern images. Images acquired under controlled and favorable conditions so as to acquire high quality vein pattern information.
 
-== Attack Tools/Media
+== Common Attack Tools, Materials and Environment
+* VP1-T.2 Camera
+* VP1-T.3 Printer
+* VP1-M.1 Print paper
 
-* T.2
-* T.3
-* M.1
 
-== Recipe
-The evaluator shall capture a vein image using a dSLR camera and print it on paper.
-
-The evaluator shall refer publicly available information to change the default settings of the camera and printer (e.g., resolution) to create clearer vein image artefacts.
-
-The evaluator shall take at least three images and select the best one to create each vein image artefact.
-
-== Prerequisite
-The evaluator shall enrol test users first as described in the <<Vein Toolbox Overview>>. If the ST covers multiple configurations for vein unlock, the same test shall be done for all configurations.
-
-== Presentation
-The evaluator shall present a printed artefact as is to the TOE as described in the <<Vein Toolbox Overview>>.
+== Common recipe
+The evaluator shall capture a vein image using a dSLR camera and print it on paper. The evaluator shall refer publicly available information to change the default settings of the camera and printer (e.g., resolution) to create clearer vein image artefacts. The evaluator shall take at least three images and select the best one to create each vein image artefact.
 
 == Variations
+The attack must be performed with each variation.
 
-=== Variation 1 (Vein Print attack 2-2)
-* T.1
-* T.3
-* M.1
-* M.3
+=== Variation 1 (L1-Vein VP1-01-01)
+*Direct presentation of printed vein pattern*
+
+=== Variation 2 (L1-Vein VP1-01-02)
 
 ==== Presentation
 Presentation of the artefact with bottle/tube (See <<Vein Toolbox Overview>>)
 
-=== Variation 2 (Vein Print attack 2-3)
-* T.1
-* T.3
-* M.1
-* M.4
+==== Attack tools
+* VP1-M.3 Bottle or Tube
+
+=== Variation 3 (L1-Vein VP1-01-03)
 
 ==== Presentation
 Presentation of the artefact with wax (See <<Vein Toolbox Overview>>)
 
-=== Variation 3 (Vein Print attack 2-4)
-* T.1
-* T.3
-* M.1
+==== Attack tools
+* VP1-M.4 Wax
+
+=== Variation 4 (L1-Vein VP1-01-04)
 
 ==== Presentation
 Presentation of the artefact with real palm/finger (See <<Vein Toolbox Overview>>)
