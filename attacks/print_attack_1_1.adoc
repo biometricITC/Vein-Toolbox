@@ -2,7 +2,7 @@
 :xrefstyle: short
 
 == Attack type
-Print attack (NIR light image), Direct presentation
+Print attack (NIR light image)
 
 === Total Number of Species
 This attack has *4* species to be tested.
