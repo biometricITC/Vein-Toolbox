@@ -8,7 +8,7 @@ Print attack (visible light image)
 This attack has *4* species to be tested.
 
 == Overview
-The evaluator captures target user's finger/palm vein image using a dSLR camera, prints it on paper, and present the paper to the TOE.
+The evaluator captures target user's finger/palm vein image using a mirrorless/dSLR camera, prints it on paper, and present the paper to the TOE.
 
 == Input
 The finger/palm of non-cooperative subjects for use in capturing images of the subjects' vein pattern images. Images acquired under controlled and favorable conditions so as to acquire high quality vein pattern information.
