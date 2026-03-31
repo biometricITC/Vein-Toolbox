@@ -14,80 +14,80 @@ This shows the list of tests and their applicability to different types of biome
 |Visible light Sensor
 |Unknown
 
-|Vein print attack 1-1
-|link:attacks/print_attack_1_1.adoc[NIR light image, Direct presentation]
+|L1-Vein VN1-01-01
+|link:attacks/VN1-01-Vein_attack.adoc[NIR light image, Direct presentation]
 |X
 |
 |X
 
-|Vein print attack 1-2
-|link:attacks/print_attack_1_1.adoc[NIR light image, Presentation with bottle/tube (Variant of Vein print attack 1-1)]
+|L1-Vein VN1-01-02
+|link:attacks/VN1-01-Vein_attack.adoc[NIR light image, Presentation with bottle/tube]
 |X
 |
 |X
 
-|Vein print attack 1-3
-|link:attacks/print_attack_1_1.adoc[NIR light image, Presentation with wax (Variant of Vein print attack 1-1)]
+|L1-Vein VN1-01-03
+|link:attacks/VN1-01-Vein_attack.adoc[NIR light image, Presentation with wax]
 |X
 |
 |X
 
-|Vein print attack 1-4
-|link:attacks/print_attack_1_1.adoc[NIR light image, Presentation with real palm/finger (Variant of Vein print attack 1-1)]
+|L1-Vein VN1-01-04
+|link:attacks/VN1-01-Vein_attack.adoc[NIR light image, Presentation with real palm/finger]
 |X
 |
 |X
 
-|Vein print attack 2-1
-|link:attacks/print_attack_2_1.adoc[Visible light image, Direct presentation]
+|L1-Vein VN1-02-01
+|link:attacks/VN1-02-Vein_attack.adoc[Visible light image, Direct presentation]
 |X
 |X
 |X
 
-|Vein print attack 2-2
-|link:attacks/print_attack_2_1.adoc[Visible light image, Presentation with bottle/tube (Variant of Vein print attack 2-1)]
+|L1-Vein VN1-02-02
+|link:attacks/VN1-02-Vein_attack.adoc[Visible light image, Presentation with bottle/tube]
 |X
 |X
 |X
 
-|Vein print attack 2-3
-|link:attacks/print_attack_2_1.adoc[Visible light image, Presentation with wax (Variant of Vein print attack 2-1)]
+|L1-Vein VN1-02-03
+|link:attacks/VN1-02-Vein_attack.adoc[Visible light image, Presentation with wax]
 |X
 |X
 |X
 
-|Vein print attack 2-4
-|link:attacks/print_attack_2_1.adoc[Visible light image, Presentation with real palm/finger (Variant of Vein print attack 2-1)]
+|L1-Vein VN1-02-04
+|link:attacks/VN1-02-Vein_attack.adoc[Visible light image, Presentation with real palm/finger]
 |X
 |X
 |X
 
-|Vein print attack 3-1
-|link:attacks/print_attack_3_1.adoc[Combined image, Direct presentation]
+|L1-Vein VN1-03-01
+|link:attacks/VN1-03-Vein_attack.adoc[Combined image, Direct presentation]
 |X
 |X
 |X
 
-|Vein print attack 3-2
-|link:attacks/print_attack_3_1.adoc[Combined image, Presentation with bottle/tube (Variant of Vein print attack 3-1)]
+|L1-Vein VN1-03-02
+|link:attacks/VN1-03-Vein_attack.adoc[Combined image, Presentation with bottle/tube]
 |X
 |X
 |X
 
-|Vein print attack 3-3
-|link:attacks/print_attack_3_1.adoc[Combined image, Presentation with wax (Variant of Vein print attack 3-1)]
+|L1-Vein VN1-03-03
+|link:attacks/VN1-03-Vein_attack.adoc[Combined image, Presentation with wax]
 |X
 |X
 |X
 
-|Vein print attack 3-4
-|link:attacks/print_attack_3_1.adoc[Combined image, Presentation with real palm/finger (Variant of Vein print attack 3-1)]
+|L1-Vein VN1-03-04
+|link:attacks/VN1-03-Vein_attack.adoc[Combined image, Presentation with real palm/finger]
 |X
 |X
 |X
 
-|Vein video attack 4-1
-|link:attacks/video_attack_4_1.adoc[Visible light image]
+|L1-Vein VN1-04-01
+|link:attacks/VN1-04-Vein_attack.adoc[Visible light image]
 |
 |X
 |X
