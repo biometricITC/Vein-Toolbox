@@ -20,7 +20,7 @@ The finger/palm of non-cooperative subjects for use in capturing images of the s
 * VP1-M.1 Print paper
 
 == Common recipe
-The evaluator captures the target user's finger/palm vein image using an NIR light scanner and a dSLR camera and prints both images on paper separately such that they overlap each other. The paper is then presented to the TOE. The evaluator shall refer to publicly available information to change the default settings of the NIR light scanner and printer (e.g., resolution) to create clearer vein image artefacts. The evaluator may use the printed artefacts created for link:print_attack_1_1.adoc[Attack L1-Vein VP1-01-xx] and link:print_attack_2_1.adoc[Attack L1-Vein VP1-02-xx] to create the combined printed artefact.
+The evaluator captures the target user's finger/palm vein image using an NIR light scanner and a mirrorless/dSLR camera and prints both images on paper separately such that they overlap each other. The paper is then presented to the TOE. The evaluator shall refer to publicly available information to change the default settings of the NIR light scanner and printer (e.g., resolution) to create clearer vein image artefacts. The evaluator may use the printed artefacts created for link:print_attack_1_1.adoc[Attack L1-Vein VP1-01-xx] and link:print_attack_2_1.adoc[Attack L1-Vein VP1-02-xx] to create the combined printed artefact.
 
 == Variations
 The attack must be performed with each variation.
