@@ -32,7 +32,7 @@ a|As explained in <<Vein Toolbox Overview>>, the evaluator shall select the scan
 
 |VP1-T.2 
 |Camera    
-a|dSLR camera
+a|mirrorless/dSLR camera
 
 * New dSLR camera shall be purchasable at the date of testing.
 * The camera shall have been released within the previous 1 year period starting from the date of testing.
