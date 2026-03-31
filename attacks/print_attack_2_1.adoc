@@ -20,7 +20,7 @@ The finger/palm of non-cooperative subjects for use in capturing images of the s
 
 
 == Common recipe
-The evaluator shall capture a vein image using a dSLR camera and print it on paper. The evaluator shall refer publicly available information to change the default settings of the camera and printer (e.g., resolution) to create clearer vein image artefacts. The evaluator shall take at least three images and select the best one to create each vein image artefact.
+The evaluator shall capture a vein image using a mirrorless/dSLR camera and print it on paper. The evaluator shall refer publicly available information to change the default settings of the camera and printer (e.g., resolution) to create clearer vein image artefacts. The evaluator shall take at least three images and select the best one to create each vein image artefact.
 
 == Variations
 The attack must be performed with each variation.
