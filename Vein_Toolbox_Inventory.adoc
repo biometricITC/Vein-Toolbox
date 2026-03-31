@@ -1,6 +1,6 @@
 = Vein Toolbox Inventory
 :showtitle:
-:revdate: 2020-05-05
+:revdate: 2026-03-31
 
 == Overview
 This document specifies requirements for tools that are used to create vein image artefacts. The requirements for each tool are specified in the following tables. The evaluator may use any tools and materials to create vein image artefacts as long as they meet requirements specified below. The evaluator shall confirm that created artefacts show visible vein patterns (e.g., dark lines for NIR vein image).
