@@ -1,0 +1,144 @@
+= Attack L1-Vein VN1-03-xx
+:xrefstyle: short
+
+== Attack type
+Print attack (combined image)
+
+=== Total Number of Species
+This attack has *4* species to be tested.
+
+== Overview
+The evaluator combines NIR and visible light images into a single artefact and presents it to the TOE.
+
+== Input
+The finger/palm of non-cooperative subjects for use in capturing images of the subjects' vein pattern images. Images acquired under controlled and favorable conditions so as to acquire high quality vein pattern information.
+
+== Common Attack Tools, Materials and Environment
+* VN1-T.1 NIR light scanner
+* VN1-T.1 Camera
+* VN1-T.3 Printer
+* VN1-M.1 Print paper
+
+== Common recipe
+The evaluator captures the target user's finger/palm vein image using an NIR light scanner and a mirrorless/dSLR camera and prints both images on paper separately such that they overlap each other. The paper is then presented to the TOE. The evaluator shall refer to publicly available information to change the default settings of the NIR light scanner and printer (e.g., resolution) to create clearer vein image artefacts. The evaluator may use the printed artefacts created for link:print_attack_1_1.adoc[Attack L1-Vein VN1-01-xx] and link:print_attack_2_1.adoc[Attack L1-Vein VN1-02-xx] to create the combined printed artefact.
+
+== Variations
+The attack must be performed with each variation.
+
+=== Variation 1 (L1-Vein VN1-03-01)
+*Direct presentation of combined printed vein pattern*
+
+=== Variation 2 (L1-Vein VN1-03-02)
+
+==== Presentation
+Presentation of the artefact with bottle/tube (See <<Vein Toolbox Overview>>)
+
+==== Attack tools
+* VN1-M.3 Bottle or Tube
+
+=== Variation 3 (L1-Vein VN1-03-03)
+
+==== Presentation
+Presentation of the artefact with wax (See <<Vein Toolbox Overview>>)
+
+==== Attack tools
+* VN1-M.4 Wax
+
+=== Variation 4 (L1-Vein VN1-04-04)
+
+==== Presentation
+Presentation of the artefact with real palm/finger (See <<Vein Toolbox Overview>>)
+
+== Penetration Testing and Attack Potential Rating Suggestions
+=== Penetration Testing Suggestion
+The evaluator should consider changing the following factors for penetration testing.
+
+* Creation process, test subjects and presentation methods
++
+The evaluator may change the creation process, test subject and presentation method as explained in <<BIOSD>> Section 6.3.1.3.1. 
+
+* Materials for L1-Vein VN1-03-03
++
+The evaluator may use different materials such as silicone or modeling compound instead of wax.
+
+=== Attack Potential Rating Suggestion
+The attack potentials that are required to build the artefacts are summarized in the following tables. See BIOSD Section 9 for more information about how to calculate attack potential.
+
+Some assumptions, based on current technology, are applied to the calculation of Attack Potential for this version of the toolbox. The following calculation assumes the camera is used for the NIR light scanner, as no commercial scanners are available for the attack and developing an in-house scanner exceeds the Basic attack potential at the time of development of this version. However, as PAD technology and PAIs become more sophisticated, these assumptions may change. Static determinations of values for the various factors as described below may then be replaced by values based on the specific PAI when calculating the Attack Potential.
+
+Attack Potential values are shown in <<calculatedtable>>. Attack Potential values for Identification account for the time, expertise, etc. required to make the printed vein pattern described in this attack. Attack potential for Exploitation corresponds to the effort to attack the TOE using the PAI in the actual environment (i.e., capturing the target vein pattern from the subject and attack the TOE using the printed vein pattern). <<calculatedtable>> shows the final attack potential to rate the vulnerabilities and TOE resistance.
+
+*All Variations* 
+
+.Calculated Attack Potential Vein attack VN1-03-xx
+[[calculatedtable]]
+[cols=".^2,.^2,^.^1,.^2,^.^1,^.^1",options="header",]
+|===
+|Factor 
+|Identification Value
+|Score
+|Exploitation Value
+|Score
+|Total
+
+|*Elapsed Time*
+|⇐ one day
+|1
+|<= one hour
+|0
+|1
+
+|*Expertise*
+|Layman
+|0
+|Layman
+|0
+|0
+
+|*Knowledge of TOE*    
+|Public
+|0 
+|Public
+|0 
+|0
+
+|*Equipment*
+|Standard
+|0 
+|Standard
+|0
+|0
+
+a|
+*Window of Opportunity*
+
+*(Access to Biometric Characteristics)* 
+|Not needed
+|0
+|Non-cooperative (Moderate)
+|4
+|4
+
+a|
+*Window of Opportunity*
+
+*(Access to TOE)* 
+|Easy
+|0
+|Moderate
+|4
+|4
+
+|*Degree of Scrutiny*
+|None
+|0 
+|None
+|0
+|0
+
+6+^.^|Total Attack Potential = 9 &#8804; Basic Attack Potential
+
+|===
+
+== Pass Criteria
+There are no additional criteria other than the criteria defined in <<BIOSD>> and <<PAD Toolbox Overview>>.
