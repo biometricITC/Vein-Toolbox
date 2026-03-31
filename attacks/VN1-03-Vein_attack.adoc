@@ -136,7 +136,7 @@ a|
 |0
 |0
 
-6+^.^|Total Attack Potential = 9 &#8804; Basic Attack Potential
+6+^.^|Total Attack Potential = 9 < Basic Attack Potential
 
 |===
 
