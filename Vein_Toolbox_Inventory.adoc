@@ -35,7 +35,7 @@ a|As explained in <<Vein Toolbox Overview>>, the evaluator shall select the scan
 a|mirrorless/dSLR camera
 
 * New mirrorless/dSLR camera shall be purchasable at the date of testing.
-* The camera shall have been released within the previous 1 year period starting from the date of testing.
+* The camera shall have been released within the previous 9 year period starting from the date of testing.
 * Camera's resolution shall be at least 3 times higher than the TOE's sensor used for vein biometric verification.
 
 |VP1-T.3 
