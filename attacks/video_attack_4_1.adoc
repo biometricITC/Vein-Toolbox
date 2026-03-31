@@ -18,7 +18,7 @@ The finger/palm of non-cooperative subjects for use in capturing images of the s
 * VP1-M.2 Screen
 
 == Common recipe
-The evaluator captures a video of the target user's finger/palm veins using a dSLR camera, displays the video on a screen, begins video playback, and presents the screen to the TOE. The evaluator shall refer to publicly available information to change default settings of the camera to create clearer vein image artefacts. The evaluator shall record at least three 10 to 20 sec duration videos and select the best one to create each vein video artefact.
+The evaluator captures a video of the target user's finger/palm veins using a mirrorless/dSLR camera, displays the video on a screen, begins video playback, and presents the screen to the TOE. The evaluator shall refer to publicly available information to change default settings of the camera to create clearer vein image artefacts. The evaluator shall record at least three 10 to 20 sec duration videos and select the best one to create each vein video artefact.
 
 == Variations
 
