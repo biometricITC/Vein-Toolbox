@@ -1,6 +1,6 @@
 = Vein Toolbox Overview
 :showtitle:
-:revdate: 2020-05-05
+:revdate: 2026-03-31
 
 == Overview
 Finger/palm vein verification authenticates the user based on the human finger/palm vein patterns beneath the skin's surface. This toolbox specifies artefacts for finger/palm vein PAD testing and their production methods, referring to relevant research papers. While the focus of the toolbox is on finger/palm vein verification, this toolbox can also be applicable to other types of vein verification (e.g., dorsal hand or wrist vein verification), as they use the same technology to capture and match vein patterns.
